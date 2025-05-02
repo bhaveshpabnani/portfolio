@@ -12,7 +12,7 @@ interface Project {
   tags: string[];
   github?: string;
   demo?: string;
-  category: 'ml' | 'fullstack' | 'lovable';
+  category: 'ml' | 'fullstack';
 }
 
 const projects: Project[] = [
@@ -72,7 +72,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
     tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vite"],
     demo: "https://example.com",
-    category: 'lovable'
+    category: 'fullstack'
   }
 ];
 
@@ -190,7 +190,7 @@ export default function Projects() {
 
         <div className="flex justify-center mb-12">
           <div className="inline-flex bg-white/5 backdrop-blur-sm rounded-full p-1">
-            {['all', 'ml', 'fullstack', 'lovable'].map((tab) => (
+            {['all', 'ml', 'fullstack', ].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -202,7 +202,7 @@ export default function Projects() {
               >
                 {tab === 'all' ? 'All Projects' : 
                  tab === 'ml' ? 'Machine Learning' :
-                 tab === 'fullstack' ? 'Full Stack' : 'Lovable'}
+                 tab === 'fullstack' ? 'Full Stack' : 'All Projects'}
               </button>
             ))}
           </div>
