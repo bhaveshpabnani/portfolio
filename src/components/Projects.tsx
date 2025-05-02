@@ -17,36 +17,65 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MORAY - Multi-agent Orchestration",
-    description: "Developed Multi-agent Orchestrated Retrieval and DAG sYntesis to enable parallelized execution of agents and tools using a DAG. Built with FastAPI, Docker, AWS, and Modal for hosting the Stella 1.5B contextual embedding model.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["LangChain", "LangGraph", "CrewAI", "FastAPI", "Docker", "AWS"],
-    github: "https://github.com/username/moray",
-    category: 'ml'
-  },
-  {
     title: "ReefChat: Multi-Agent Retrieval System",
-    description: "A full-stack chatbot using Next.js, React, and TypeScript for UI, with Google Authentication and PDF viewer functionalities. Built for InterIIT High Prep.",
+    description: "Developed Multi-agent Orchestrated Retrieval and DAG sYntesis (MORAY) to enable parallelized execution of agents and tools using a DAG. Built with Next.js, React, TypeScript, Google Authentication and PDF viewer functionalities.",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["Next.js", "React", "TypeScript", "Google Auth", "PDF Processing"],
-    demo: "https://reefchat.example.com",
-    github: "https://github.com/username/reefchat",
+    tags: ["Next.js", "React", "TypeScript", "LangChain", "LangGraph", "CrewAI"],
+    demo: "https://pathway.com/blog/ai-tools-for-equity-analysis",
+    github: "https://github.com/SubarnoMaji/reef-chat-pathway",
     category: 'fullstack'
   },
   {
-    title: "DDoS Attack Detection System",
-    description: "Secured 100% accuracy using Deep Residual Network with Dice Loss on CSE-CIC-IDS 2018 dataset after SMOTE augmentation. Part of research at Deakin University.",
-    image: "https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["Deep Learning", "Security", "Python", "TensorFlow", "LUCID", "FLAD"],
-    github: "https://github.com/username/ddos-detection",
+    title: "Portfolio Website",
+    description: "A stunning portfolio website built with React, TypeScript, Tailwind CSS and shadcn components. Features smooth animations and responsive design.",
+    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vite"],
+    github: "https://github.com/bhaveshpabnani/portfolio",
+    demo: "https://bhavesh-pabnani-portfolio.web.app",
+    category: 'fullstack'
+  },
+  {
+    title: "Market Lens",
+    description: "A comprehensive market analysis tool that provides real-time insights and visualization for stock market data, helping investors make informed decisions.",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["React", "TypeScript", "D3.js", "API Integration", "Data Visualization"],
+    demo: "https://market-lens-optimizer.web.app/",
+    github: "https://github.com/bhaveshpabnani/Market-Lens",
+    category: 'fullstack'
+  },
+  {
+    title: "Vibe Sense",
+    description: "An emotion detection application that analyzes text and speech to determine sentiment and emotional context, built with TypeScript and machine learning models.",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["TypeScript", "React", "NLP", "Sentiment Analysis", "TensorFlow.js"],
+    demo: "https://vibe-converse.web.app/",
+    github: "https://github.com/bhaveshpabnani/Vibe-Sense",
     category: 'ml'
+  },
+  {
+    title: "Catalyst Ambulance Optimizer",
+    description: "An emergency response optimization system that uses real-time data and predictive algorithms to improve ambulance routing and response times.",
+    image: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["TypeScript", "React", "Google Maps API", "Optimization Algorithms", "Real-time Data"],
+    demo: "https://catalyst-ambulance-optimizer.vercel.app/",
+    github: "https://github.com/bhaveshpabnani/catalyst-ambulance-optimizer",
+    category: 'fullstack'
+  },
+  {
+    title: "Mansio",
+    description: "A modern real estate platform that connects buyers, sellers, and agents through an intuitive interface with advanced property search and visualization features.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["TypeScript", "Next.js", "Prisma", "Google Maps", "Authentication"],
+    demo: "https://mansio.vercel.app/",
+    github: "https://github.com/bhaveshpabnani/mansio",
+    category: 'fullstack'
   },
   {
     title: "Breadth Recommendation App",
     description: "Web application to optimize breadth selection at IIT Kharagpur using Next.js and Tailwind CSS for frontend interface with Flask backend and GPT integration.",
     image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
     tags: ["Next.js", "Tailwind CSS", "Flask", "OpenAI API"],
-    demo: "https://breadth-recommender.example.com",
+    demo: "https://breadth-selection.netlify.app/",
     category: 'fullstack'
   },
   {
@@ -54,25 +83,56 @@ const projects: Project[] = [
     description: "AI-powered chatbot using Streamlit, LangChain, and OpenAI GPT-3.5-turbo for personalized content generation with conversation management.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
     tags: ["Streamlit", "LangChain", "OpenAI", "Python"],
-    github: "https://github.com/username/kik-bot",
+    github: "https://github.com/bhaveshpabnani/KIK-Bot",
     category: 'ml'
   },
   {
-    title: "Advanced Image Processing App",
+    title: "Image Processing & Generation App",
     description: "Streamlit application featuring custom mask generator, black-and-white colorization, and Stable Diffusion XL models for text-to-image generation.",
     image: "https://images.unsplash.com/photo-1561518776-e76a5e48f731?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
     tags: ["OpenCV", "Stable Diffusion", "Streamlit", "Kandinsky"],
-    demo: "https://image-processor.example.com",
-    github: "https://github.com/username/image-processor",
+    github: "https://github.com/bhaveshpabnani/Image-Processing-and-Generation-Application",
     category: 'ml'
   },
   {
-    title: "Portfolio Website",
-    description: "A stunning portfolio website built with React, TypeScript, Tailwind CSS and shadcn components. Features smooth animations and responsive design.",
-    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vite"],
-    demo: "https://example.com",
+    title: "BTC-INR Trading",
+    description: "A cryptocurrency trading analysis tool that uses machine learning to predict Bitcoin to Indian Rupee exchange rates and identify optimal trading opportunities.",
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Python", "Jupyter Notebook", "Pandas", "Scikit-learn", "Cryptocurrency"],
+    github: "https://github.com/bhaveshpabnani/BTC-INR-Trading",
+    category: 'ml'
+  },
+  {
+    title: "Social Care Scorecard",
+    description: "A comprehensive evaluation system for social care services that provides metrics, analytics, and reporting tools to improve service quality and outcomes.",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["React", "D3.js", "Data Analysis", "Healthcare", "Dashboard"],
+    github: "https://github.com/bhaveshpabnani/Social-Care-Scorecard",
     category: 'fullstack'
+  },
+  {
+    title: "Tourism Demand Forecast",
+    description: "A predictive analytics system that forecasts tourism demand based on historical data, seasonal patterns, and external factors to help the tourism industry plan effectively.",
+    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Python", "Jupyter Notebook", "Time Series Analysis", "Forecasting", "Data Visualization"],
+    github: "https://github.com/bhaveshpabnani/Tourism-Demand-Forecast",
+    category: 'ml'
+  },
+  {
+    title: "Airline Demand & Fare Prediction",
+    description: "A machine learning system that predicts airline ticket demand and optimal pricing strategies based on multiple factors including seasonality, events, and competitor pricing.",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Python", "Jupyter Notebook", "Machine Learning", "Regression Analysis", "Data Mining"],
+    github: "https://github.com/bhaveshpabnani/Airline-Demand-and-Fare-Prediction",
+    category: 'ml'
+  },
+  {
+    title: "Exoplanets Detection",
+    description: "A deep learning project that analyzes astronomical data to detect and classify exoplanets, contributing to the search for habitable worlds beyond our solar system.",
+    image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Python", "Jupyter Notebook", "Deep Learning", "Astronomy", "Signal Processing"],
+    github: "https://github.com/bhaveshpabnani/Exoplanets-Detection",
+    category: 'ml'
   }
 ];
 
@@ -230,4 +290,4 @@ export default function Projects() {
       </div>
     </section>
   );
-} 
+}

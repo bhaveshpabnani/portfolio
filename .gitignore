@@ -5,7 +5,21 @@
 
 # testing
 /coverage
+firestore_emulator.log
 
+# IDEs and editors
+/.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+.firebase.json  
 # next.js
 /.next/
 /out/
