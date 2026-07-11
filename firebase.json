@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "bhavesh-pabnani-portfolio",
-    "public": "public",
+    "public": "out",
     "ignore": [
       "firebase.json",
       "**/.*",
