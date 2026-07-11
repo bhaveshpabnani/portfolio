@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Hero from '@/components/Hero';
+import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
@@ -38,6 +39,9 @@ export default function Home() {
         </div>
         {showNavbar && <Navbar />}
         <div id="about">
+          <About />
+        </div>
+        <div id="experience">
           <Experience />
         </div>
         <div id="projects">

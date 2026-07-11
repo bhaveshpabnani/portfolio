@@ -12,61 +12,63 @@ import {
 // Experience data
 const experiences = [
   {
+    company: "Finaiance",
+    logo: "",
+    title: "Founding Engineer",
+    period: "Sep 2025 - Dec 2025",
+    location: "Remote",
+    remote: true,
+    description: "Built an agentic financial intelligence workspace with Meridian multi-agent orchestration, Docker-isolated execution, SSE streaming, document workflows, GitHub Actions, Infisical secrets, Supabase RLS, Redis, Qdrant, Neo4j and ClickHouse-backed retrieval.",
+    skills: ["LangGraph", "FastAPI", "Docker", "Supabase", "Redis", "Qdrant", "Neo4j", "Infisical"]
+  },
+  {
+    company: "VoiceEval",
+    logo: "",
+    title: "Technical Lead",
+    period: "Dec 2025 - Feb 2026",
+    location: "Remote",
+    remote: true,
+    description: "Led a persona-based evaluation platform for voice agents, generating scenario-specific test cases, extracting conversation signals and automating simulation-driven scoring across ElevenLabs, Sarvam, LiveKit, SIP, MongoDB, Redis and ASR/TTS pipelines.",
+    skills: ["Voice AI", "ElevenLabs", "Sarvam", "LiveKit", "MongoDB", "Redis", "Evaluation"]
+  },
+  {
     company: "Amazon",
     logo: "https://logo.clearbit.com/amazon.com",
-    title: "Incoming SDE Intern",
-    period: "May 2025 - July 2025",
+    title: "SDE Intern",
+    period: "May 2025 - Jul 2025",
     location: "Bengaluru, India",
-    description: "Working in the FinAuto Team for finance and payments automation, utilizing AWS infrastructure, Java, Python, and Amazon's internal frameworks for service development.",
-    skills: ["AWS", "Java", "Python", "Microservices", "Cloud Computing"]
+    description: "Worked with the FinAuto team on finance and payments automation, optimizing Java/Python service workflows, DynamoDB batch querying, AWS infrastructure and Bedrock prompt routing for low-latency, production-grade automation.",
+    skills: ["AWS", "Java", "Python", "DynamoDB", "Bedrock", "Microservices"]
   },
   {
-    company: "PUMA Group",
-    logo: "https://logo.clearbit.com/puma.com",
-    title: "Customer Acquisition Analyst",
-    period: "Mar 2025 - Present",
-    location: "India",
-    description: "Performing in-store marketing analysis for customer acquisition cost prediction. Detecting KPIs and KRAs using customer feedback datasets to optimize acquisition strategies.",
-    skills: ["Data Analysis", "Marketing Analytics", "KPI Tracking", "Predictive Modeling"]
-  },
-  {
-    company: "Cambridge Judge Business School",
-    logo: "https://logo.clearbit.com/jbs.cam.ac.uk",
-    title: "Research Assistant",
-    period: "Jan 2025 - Present",
-    location: "United Kingdom",
+    company: "Mansio.ai",
+    logo: "",
+    title: "Backend Intern",
+    period: "Aug 2025 - Sep 2025",
+    location: "Remote",
     remote: true,
-    description: "Working on dataset compilation and collection for satellites worldwide for frugality and ablation studies of Indian satellites and innovation. Leading a team to develop an agentic AI chatbot to gather information about satellites from government-authorized websites.",
-    skills: ["Data Collection", "Research Methodology", "Team Leadership", "AI Development"]
-  },
-  {
-    company: "Deakin University",
-    logo: "https://logo.clearbit.com/deakin.edu.au",
-    title: "Research Intern",
-    period: "Mar 2024 - Aug 2024",
-    location: "Victoria, Australia",
-    description: "Analyzed anomaly detection methods for DDoS attack detection under Prof. Gang Li at the School of Information Technology. Developed Deep Residual Network models with Dice Loss on security datasets and implemented LUCID and FLAD models for attack classification.",
-    skills: ["DDoS", "Anomaly Detection", "Deep Residual Networks", "LUCID", "FLAD", "CNN"]
+    description: "Built backend workflows for MITRA, a WhatsApp and voice agent system using FastAPI, Redis, Gupshup, VAPI, Deepgram STT, ElevenLabs TTS and GPT-4o to support real-time conversational automation.",
+    skills: ["FastAPI", "Redis", "WhatsApp", "VAPI", "Deepgram", "ElevenLabs"]
   },
   {
     company: "Sabre Corporation",
     logo: "https://logo.clearbit.com/sabre.com",
-    title: "Intern",
-    period: "May 2024 - Jul 2024",
+    title: "Software Engineer / Data Analytics Intern",
+    period: "May 2024 - Jul 2024, Jan 2026 - Present",
     location: "Remote",
     remote: true,
-    description: "Worked on non-stop share prediction with airline itinerary datasets using graph theory analysis and NetworkX. Collaborated with team to develop a chatbot integrated into Sabre's dashboard for client queries related to schedule data and generating analysis from datasets.",
-    skills: ["Info Retriever", "Retrieval Augmented Learning", "Graph Theory", "NetworkX", "SQL"]
+    description: "Built airline analytics systems across non-stop share prediction, RAG-based schedule querying and Vectora schedule intelligence using Aurora/PostgreSQL, Redis caching, AWS EC2, route-pair analytics, graph features and dashboard integrations.",
+    skills: ["Aurora", "PostgreSQL", "Redis", "AWS EC2", "NetworkX", "RAG", "Analytics"]
   },
   {
-    company: "Indian Institute of Management, Ranchi",
-    logo: "https://logo.clearbit.com/iimranchi.ac.in",
-    title: "Research Intern",
-    period: "Nov 2023 - Jul 2024",
-    location: "Ranchi",
+    company: "Data Analytics Centre",
+    logo: "",
+    title: "Student Researcher / Executive Head",
+    period: "2023 - Present",
+    location: "IIT Kharagpur",
     remote: true,
-    description: "Contributed to research on crowdfunding campaign success using multimodal sentiment analysis with Prof. Sobhan S. Employed OpenCV, Haar cascade classifier for face detection, and Resnet50 CNN for object recognition. Implemented congruency analysis using CLIP model and SQRankBoost for campaign ranking.",
-    skills: ["Computer Vision", "Sentiment Analysis", "ResNet50", "CLIP", "Statistical Analysis"]
+    description: "Led applied analytics and AI initiatives spanning predictive modeling, financial analysis, research workflows and student engineering projects, while mentoring teams on data pipelines, ML systems and product-oriented experimentation.",
+    skills: ["Leadership", "Data Analytics", "ML", "Product Engineering", "Mentoring"]
   }
 ];
 

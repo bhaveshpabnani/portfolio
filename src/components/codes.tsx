@@ -18,7 +18,7 @@ const fileContents: Record<string, string> = {
     <span class="text-teal-400">&lt;div</span> <span class="text-sky-300">className</span>=<span class="text-orange-300">"bg-black text-white"</span><span class="text-teal-400">&gt;</span>
       <span class="text-teal-400">&lt;Head&gt;</span>
         <span class="text-teal-400">&lt;title&gt;</span><span class="text-white">Bhavesh Pabnani | Portfolio</span><span class="text-teal-400">&lt;/title&gt;</span>
-        <span class="text-teal-400">&lt;meta</span> <span class="text-sky-300">name</span>=<span class="text-orange-300">"description"</span> <span class="text-sky-300">content</span>=<span class="text-orange-300">"Full Stack Developer & ML Engineer"</span> <span class="text-teal-400">/&gt;</span>
+        <span class="text-teal-400">&lt;meta</span> <span class="text-sky-300">name</span>=<span class="text-orange-300">"description"</span> <span class="text-sky-300">content</span>=<span class="text-orange-300">"AI agents, cloud systems, voice AI and product engineering"</span> <span class="text-teal-400">/&gt;</span>
         <span class="text-teal-400">&lt;link</span> <span class="text-sky-300">rel</span>=<span class="text-orange-300">"icon"</span> <span class="text-sky-300">href</span>=<span class="text-orange-300">"/favicon.ico"</span> <span class="text-teal-400">/&gt;</span>
       <span class="text-teal-400">&lt;/Head&gt;</span>
 
@@ -61,14 +61,11 @@ const fileContents: Record<string, string> = {
           <span class="text-teal-400">&lt;div&gt;</span>
             <span class="text-teal-400">&lt;h2</span> <span class="text-sky-300">className</span>=<span class="text-orange-300">"text-3xl font-bold mb-6"</span><span class="text-teal-400">&gt;</span><span class="text-white">About Me</span><span class="text-teal-400">&lt;/h2&gt;</span>
             <span class="text-teal-400">&lt;p</span> <span class="text-sky-300">className</span>=<span class="text-orange-300">"mb-4"</span><span class="text-teal-400">&gt;</span>
-              <span class="text-white">I am a pre-final year student pursuing a B.Tech in Manufacturing Science </span>
-              <span class="text-white">and Engineering at Indian Institute of Technology, Kharagpur.</span>
+              <span class="text-white">I am a software engineer and builder at Indian Institute of Technology, Kharagpur.</span>
             <span class="text-teal-400">&lt;/p&gt;</span>
             <span class="text-teal-400">&lt;p</span> <span class="text-sky-300">className</span>=<span class="text-orange-300">"mb-6"</span><span class="text-teal-400">&gt;</span>
-              <span class="text-white">My expertise lies in Full Stack Development with advanced frameworks </span>
-              <span class="text-white">and technologies including MongoDB, Supabase, Firebase, React, </span>
-              <span class="text-white">TypeScript, NextJS, and backend frameworks like Node, Express, </span>
-              <span class="text-white">FastAPI, and Django.</span>
+              <span class="text-white">My work spans AI agents, cloud systems, voice AI, finance workflows, </span>
+              <span class="text-white">Next.js, TypeScript, FastAPI, Docker, Redis, Supabase and AWS.</span>
             <span class="text-teal-400">&lt;/p&gt;</span>
           <span class="text-teal-400">&lt;/div&gt;</span>
         <span class="text-teal-400">&lt;/motion.div&gt;</span>

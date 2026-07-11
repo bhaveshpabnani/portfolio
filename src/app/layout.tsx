@@ -16,8 +16,8 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: 'Bhavesh Pabnani | Portfolio',
-  description: 'Full Stack Developer, Data Scientist, and Machine Learning Engineer',
-  keywords: ['Full Stack Developer', 'Machine Learning', 'Data Analytics', 'IIT Kharagpur'],
+  description: 'Software engineer building AI agents, cloud systems, voice AI, financial workflows, and data products',
+  keywords: ['Software Engineer', 'AI Agents', 'Cloud Infrastructure', 'Voice AI', 'Full Stack Developer', 'IIT Kharagpur'],
 };
 
 export default function RootLayout({
@@ -66,4 +66,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-} 
+}

@@ -37,6 +37,11 @@ const instruments = [
   },
 ];
 
+const visualizerBars = Array.from({ length: 40 }, (_, index) => ({
+  height: 14 + ((index * 19) % 68),
+  duration: 0.5 + ((index % 6) * 0.08),
+}));
+
 export default function Passions() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
@@ -111,15 +116,15 @@ export default function Passions() {
             ref={audioVisualizerRef}
             className="h-40 flex items-end justify-center gap-1 w-full max-w-3xl bg-white/5 rounded-lg p-8 border border-white/10"
           >
-            {Array.from({ length: 40 }).map((_, i) => (
+            {visualizerBars.map((bar, i) => (
               <div
                 key={i}
                 className={`audio-bar w-2 rounded-t-full bg-gradient-to-t ${
                   i % 2 === 0 ? 'from-accent to-accent2' : 'from-accent2 to-accent'
                 }`}
-                style={{ 
-                  height: `${Math.floor(Math.random() * 70) + 10}px`,
-                  animationDuration: `${0.5 + Math.random() * 0.5}s`
+                style={{
+                  height: `${bar.height}px`,
+                  animationDuration: `${bar.duration}s`
                 }}
               ></div>
             ))}

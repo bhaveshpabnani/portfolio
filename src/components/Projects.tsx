@@ -12,45 +12,65 @@ interface Project {
   tags: string[];
   github?: string;
   demo?: string;
-  category: 'ml' | 'fullstack';
+  category: 'ai' | 'ml' | 'fullstack';
 }
 
 const projects: Project[] = [
   {
+    title: "Humungousaur: Proactive Cognitive Agent",
+    description: "Built a proactive desktop-first cognitive agent with memory-based, Git-backed contextual orchestration, native macOS Swift/SwiftUI and Windows WinUI 3/.NET apps, browser execution control, selectors and skill integrations.",
+    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["SwiftUI", "WinUI 3", ".NET", "Python", "FastAPI", "Browser Automation", "Agents"],
+    category: 'ai'
+  },
+  {
+    title: "Finaiance: Multi-Agent Financial Workspace",
+    description: "Engineered an AI-native finance workspace with Meridian contextual orchestration, Docker execution sandboxes, RAG over documents, Supabase RLS, Redis, Qdrant, Neo4j, ClickHouse, Infisical and CI/CD-backed cloud deployment.",
+    image: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["LangGraph", "FastAPI", "Docker", "Supabase", "Redis", "Qdrant", "Neo4j", "ClickHouse"],
+    category: 'ai'
+  },
+  {
+    title: "VoiceEval: Persona-Based Voice Agent Testing",
+    description: "Led a voice-agent evaluation framework for persona-driven scenario generation, ElevenLabs/Sarvam-based simulation, transcript extraction and automated scoring across LiveKit, SIP, MongoDB and Redis pipelines.",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Voice AI", "ElevenLabs", "Sarvam", "LiveKit", "MongoDB", "Redis"],
+    github: "https://github.com/shivam-eval/voiceeval-frontend",
+    category: 'ai'
+  },
+  {
     title: "ReefChat: Multi-Agent Retrieval System",
-    description: "Developed Multi-agent Orchestrated Retrieval and DAG sYntesis (MORAY) to enable parallelized execution of agents and tools using a DAG. Built with Next.js, React, TypeScript, Google Authentication and PDF viewer functionalities.",
+    description: "Developed MORAY, a multi-agent retrieval and DAG synthesis system for equity analysis with parallel tool execution, Pathway-backed document pipelines, Next.js, TypeScript, LangGraph-style orchestration and PDF-grounded workflows.",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["Next.js", "React", "TypeScript", "LangChain", "LangGraph", "CrewAI"],
-    demo: "https://pathway.com/blog/ai-tools-for-equity-analysis",
+    tags: ["Next.js", "React", "TypeScript", "Pathway", "LangChain", "LangGraph"],
+    demo: "https://pathway.com/framework/blog/ai-tools-for-equity-analysis",
     github: "https://github.com/SubarnoMaji/reef-chat-pathway",
+    category: 'ai'
+  },
+  {
+    title: "Vectora: Aviation Analytics Platform",
+    description: "Built Sabre schedule intelligence with Aurora/PostgreSQL, Redis caching, AWS EC2, route-pair heatmaps, multi-tenant analytics and departure-wave dashboards for airline network planning workflows.",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Aurora", "PostgreSQL", "Redis", "AWS EC2", "Analytics", "Dashboards"],
+    category: 'fullstack'
+  },
+  {
+    title: "Mansio: Property Discovery Platform",
+    description: "Developed a real-estate listing and roommate discovery platform with property search, listing workflows and a Tinder-like flatmate interface for faster matching and discovery.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["TypeScript", "Next.js", "Prisma", "Authentication", "Product Design"],
+    demo: "https://mansio.vercel.app/",
+    github: "https://github.com/bhaveshpabnani/mansio",
     category: 'fullstack'
   },
   {
     title: "Portfolio Website",
-    description: "A stunning portfolio website built with React, TypeScript, Tailwind CSS and shadcn components. Features smooth animations and responsive design.",
+    description: "A dark VS Code-inspired portfolio built with Next.js, TypeScript, Tailwind CSS, Framer Motion and Firebase hosting, designed to keep projects, CV and technical work easy to browse.",
     image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vite"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Firebase"],
     github: "https://github.com/bhaveshpabnani/portfolio",
     demo: "https://bhavesh-pabnani-portfolio.web.app",
     category: 'fullstack'
-  },
-  {
-    title: "Market Lens",
-    description: "A comprehensive market analysis tool that provides real-time insights and visualization for stock market data, helping investors make informed decisions.",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["React", "TypeScript", "D3.js", "API Integration", "Data Visualization"],
-    demo: "https://market-lens-optimizer.web.app/",
-    github: "https://github.com/bhaveshpabnani/Market-Lens",
-    category: 'fullstack'
-  },
-  {
-    title: "Vibe Sense",
-    description: "An emotion detection application that analyzes text and speech to determine sentiment and emotional context, built with TypeScript and machine learning models.",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["TypeScript", "React", "NLP", "Sentiment Analysis", "TensorFlow.js"],
-    demo: "https://vibe-converse.web.app/",
-    github: "https://github.com/bhaveshpabnani/Vibe-Sense",
-    category: 'ml'
   },
   {
     title: "Catalyst Ambulance Optimizer",
@@ -59,15 +79,6 @@ const projects: Project[] = [
     tags: ["TypeScript", "React", "Google Maps API", "Optimization Algorithms", "Real-time Data"],
     demo: "https://catalyst-ambulance-optimizer.vercel.app/",
     github: "https://github.com/bhaveshpabnani/catalyst-ambulance-optimizer",
-    category: 'fullstack'
-  },
-  {
-    title: "Mansio",
-    description: "A modern real estate platform that connects buyers, sellers, and agents through an intuitive interface with advanced property search and visualization features.",
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-    tags: ["TypeScript", "Next.js", "Prisma", "Google Maps", "Authentication"],
-    demo: "https://mansio.vercel.app/",
-    github: "https://github.com/bhaveshpabnani/mansio",
     category: 'fullstack'
   },
   {
@@ -250,7 +261,7 @@ export default function Projects() {
 
         <div className="flex justify-center mb-12">
           <div className="inline-flex bg-white/5 backdrop-blur-sm rounded-full p-1">
-            {['all', 'ml', 'fullstack', ].map((tab) => (
+            {['all', 'ai', 'fullstack', 'ml'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -261,6 +272,7 @@ export default function Projects() {
                 }`}
               >
                 {tab === 'all' ? 'All Projects' : 
+                 tab === 'ai' ? 'AI Agents' :
                  tab === 'ml' ? 'Machine Learning' :
                  tab === 'fullstack' ? 'Full Stack' : 'All Projects'}
               </button>

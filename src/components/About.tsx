@@ -49,17 +49,18 @@ export default function About() {
           <motion.div variants={itemVariants} className="relative">
             <div className="relative rounded-md overflow-hidden h-[400px] md:h-[500px] bg-gradient-to-r from-black to-black/40">
               <Image
-                src="/images/1744196313548-removebg.png"
+                src="/images/ChatGPT Image .png"
                 alt="About Me"
                 fill
+                sizes="(min-width: 768px) 50vw, 100vw"
                 style={{ objectFit: 'contain' }}
                 className="transition-all duration-500"
               />
               <div className="absolute inset-0 bg-black/60 mix-blend-multiply"></div>
               
               <div className="absolute bottom-8 left-8 z-10">
-                <h2 className="text-3xl font-bold mb-2">Pre-final Year<br/><span className="text-accent">@IIT Kharagpur</span></h2>
-                <p className="text-white/70">Manufacturing Science & Engineering</p>
+                <h2 className="text-3xl font-bold mb-2">Software Engineer<br/><span className="text-accent">@IIT Kharagpur</span></h2>
+                <p className="text-white/70">AI agents, cloud systems, and product engineering</p>
               </div>
             </div>
           </motion.div>
@@ -68,17 +69,17 @@ export default function About() {
           <motion.div variants={itemVariants}>
             <h2 className="section-heading">About Me</h2>
             <p className="text-white/70 mb-6 leading-relaxed">
-              I am  a pre-final year student pursuing a B.Tech in Manufacturing Science and Engineering at 
-              Indian Institute of Technology, Kharagpur.
+              I am a software engineer and builder at Indian Institute of Technology, Kharagpur, focused on
+              agentic systems, cloud-backed products, voice AI, finance workflows and data-heavy applications.
             </p>
             <p className="text-white/70 mb-6 leading-relaxed">
-              My expertise lies in Full Stack Development, where I work with advanced frameworks and technologies including 
-              MongoDB, Supabase, Firebase, React, TypeScript, JavaScript, HTML, CSS, Vite, Tailwind, NextJS, and backend 
-              frameworks like Node, Express, FastAPI, Docker, and Django.
+              I have worked across Amazon, Finaiance, VoiceEval, Mansio.ai and Sabre, building backend services,
+              multi-agent orchestration, voice-agent evaluation systems, aviation analytics dashboards and production
+              infrastructure using AWS, Docker, Redis, Supabase, Infisical, FastAPI, Next.js and TypeScript.
             </p>
             <p className="text-white/70 mb-6 leading-relaxed">
-              Additionally, I have strong proficiency in Data Analytics and Machine Learning, with specialized knowledge in 
-              Time Series Analysis and Multi-agent Orchestration.
+              My strongest area is turning ambiguous workflows into shipped systems: memory-based agents, RAG pipelines,
+              browser execution control, real-time voice pipelines, data visualization and cloud deployment.
             </p>
             <p className="text-white/70 mb-8 leading-relaxed">
               Outside of technology, I have a passion for music and play multiple instruments including the guitar, piano, 
@@ -111,9 +112,9 @@ export default function About() {
                 </h3>
                 <ul className="space-y-2">
                   <li className="text-white/70">Executive Head @ Kharagpur Data Analytics Group</li>
-                  <li className="text-white/70">AI and Metaverse Head @ KodeinKGP</li>
-                  <li className="text-white/70">General Secretary Technology @ HJB Hall</li>
                   <li className="text-white/70">AI Head @ 10X Club by Coding Ninjas</li>
+                  <li className="text-white/70">Built Humungousaur proactive cognitive agent</li>
+                  <li className="text-white/70">Hackathon winner in AI and analytics tracks</li>
                 </ul>
               </div>
             </div>
@@ -143,4 +144,4 @@ export default function About() {
       </div>
     </section>
   );
-} 
+}

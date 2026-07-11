@@ -271,13 +271,12 @@ export default function Hero() {
             
             <div className="w-full bg-black rounded p-3 mb-4 text-sm border border-white/30">
               <p className="text-white mb-3 leading-relaxed">
-                I am a pre-final year student pursuing a B.Tech in Manufacturing Science and Engineering at 
+                I am a software engineer and builder at
                 <span className="text-green-500"> Indian Institute of Technology, Kharagpur</span>.
               </p>
               <p className="text-white mb-3 leading-relaxed">
-                My expertise lies in <span className="text-green-500">Full Stack Development</span>, with advanced frameworks and technologies including 
-                MongoDB, Supabase, Firebase, React, TypeScript, NextJS, and backend 
-                frameworks like Node, Express, FastAPI, and Django.
+                My work spans <span className="text-green-500">AI agents, cloud systems, voice AI, finance workflows</span>, and
+                product engineering with Next.js, TypeScript, FastAPI, Docker, Redis, Supabase, Infisical and AWS.
               </p>
             </div>
             
@@ -306,10 +305,10 @@ export default function Hero() {
                   Positions
                 </h3>
                 <ul className="space-y-1 text-xs border-l-2 border-green-500/50 pl-2">
-                  <li className="text-white">Executive Head @ KDAG</li>
-                  <li className="text-white">AI and Metaverse Head @ KodeinKGP</li>
-                  <li className="text-white">General Secretary Technology @ HJB Hall</li>
-                  <li className="text-white">AI Head @ 10X Club</li>
+                  <li className="text-white">Founding Engineer @ Finaiance</li>
+                  <li className="text-white">Technical Lead @ VoiceEval</li>
+                  <li className="text-white">SDE Intern @ Amazon</li>
+                  <li className="text-white">Software Engineer @ Sabre</li>
                 </ul>
               </div>
             </div>
@@ -434,7 +433,7 @@ export default function Hero() {
             </div>
             
             <h2 className="text-xl font-bold text-white mb-1">Bhavesh Pabnani</h2>
-            <p className="text-green-400 mb-3 text-center">Full Stack Developer & Machine Learning Engineer</p>
+            <p className="text-green-400 mb-3 text-center">Software Engineer | AI Agents, Cloud Systems & Voice AI</p>
             
             <div className="w-full bg-black rounded p-3 mb-3 text-sm border border-white/30">
               <div className="grid grid-cols-2 gap-y-2 text-white">
@@ -446,17 +445,17 @@ export default function Hero() {
                 <div className="text-white font-semibold flex items-center">
                   <Briefcase size={14} className="mr-1 text-blue-500" /> Role:
                 </div>
-                <div>SDE Intern @Amazon</div>
+                <div>Founding Engineer @ Finaiance</div>
                 
                 <div className="text-white font-semibold flex items-center">
                   <Cpu size={14} className="mr-1 text-blue-500" /> Research:
                 </div>
-                <div>CJBS, IIM Ranchi, Deakin</div>
+                <div>VoiceEval, Humungousaur, ReefChat</div>
                 
                 <div className="text-white font-semibold flex items-center">
                   <Heart size={14} className="mr-1 text-green-500" /> Positions:
                 </div>
-                <div>AI Head @10X Club by Coding Ninjas</div>
+                <div>SDE Intern @ Amazon, Engineer @ Sabre</div>
               </div>
             </div>
             
@@ -464,7 +463,7 @@ export default function Hero() {
             <div className="w-full bg-black rounded p-3 mb-3 text-sm border-l-4 border border-white/30 border-l-green-500">
               <h3 className="text-md font-semibold mb-2 text-white">Technologies</h3>
               <div className="flex flex-wrap gap-2">
-                {['React', 'TypeScript', 'Next.js', 'Node.js', 'Python', 'MongoDB', 'Firebase'].map((tech, idx) => (
+                {['React', 'TypeScript', 'Next.js', 'FastAPI', 'Python', 'Docker', 'AWS', 'Redis'].map((tech, idx) => (
                   <span key={idx} className={`px-2 py-1 bg-[#1a1a1a] text-white text-xs border border-[#323232] hover:${idx % 2 === 0 ? 'border-green-500 hover:text-green-300' : 'border-blue-500 hover:text-blue-300'} transition-colors duration-200 rounded cursor-default`}>
                     {tech}
                   </span>
@@ -482,11 +481,11 @@ export default function Hero() {
                 </li>
                 <li className="flex items-center">
                   <span className="inline-block w-1.5 h-1.5 rounded-full mr-2 bg-blue-500"></span>
-                  <span className="text-white hover:text-blue-300 transition-colors duration-200">3rd Place, FinAlytics - Optima⨯Sabre</span>
+                  <span className="text-white hover:text-blue-300 transition-colors duration-200">Built Humungousaur proactive desktop AI agent</span>
                 </li>
                 <li className="flex items-center">
                   <span className="inline-block w-1.5 h-1.5 rounded-full mr-2 bg-green-500"></span>
-                  <span className="text-white hover:text-green-300 transition-colors duration-200">1st place, St. Chavara Mega Expo-2019</span>
+                  <span className="text-white hover:text-green-300 transition-colors duration-200">3rd Place, FinAlytics - Optima x Sabre</span>
                 </li>
               </ul>
             </div>

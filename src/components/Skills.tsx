@@ -39,8 +39,12 @@ const skillsData: SkillCategory[] = [
       { name: "Python", level: "proficient" },
       { name: "JavaScript", level: "proficient" },
       { name: "TypeScript", level: "proficient" },
+      { name: "Java", level: "good" },
+      { name: "Go", level: "good" },
       { name: "C++", level: "good" },
       { name: "C", level: "good" },
+      { name: "Swift", level: "good" },
+      { name: "C#", level: "good" },
       { name: "HTML", level: "proficient" },
       { name: "CSS", level: "proficient" },
       { name: "SQL", level: "good" }
@@ -62,14 +66,16 @@ const skillsData: SkillCategory[] = [
   },
   {
     icon: <Server className="h-6 w-6" />,
-    name: "Backend Technologies",
-    description: "Creating scalable and efficient server-side applications",
+    name: "Backend & Agent Systems",
+    description: "Creating scalable services, orchestration layers, and agent runtimes",
     skills: [
       { name: "Node.js", level: "proficient" },
       { name: "Express", level: "proficient" },
       { name: "Django", level: "good" },
       { name: "FastAPI", level: "proficient" },
       { name: "Flask", level: "good" },
+      { name: "LangGraph", level: "proficient" },
+      { name: "Multi-Agent Orchestration", level: "proficient" },
       { name: "RESTful APIs", level: "proficient" },
       { name: "GraphQL", level: "good" }
     ]
@@ -80,11 +86,15 @@ const skillsData: SkillCategory[] = [
     description: "Working with various database systems for data storage",
     skills: [
       { name: "MongoDB", level: "proficient" },
-      { name: "PostgreSQL", level: "good" },
+      { name: "PostgreSQL", level: "proficient" },
       { name: "MySQL", level: "good" },
       { name: "SQLite", level: "good" },
       { name: "Firebase", level: "proficient" },
-      { name: "Supabase", level: "good" }
+      { name: "Supabase", level: "proficient" },
+      { name: "Redis", level: "proficient" },
+      { name: "Qdrant", level: "good" },
+      { name: "Neo4j", level: "good" },
+      { name: "ClickHouse", level: "good" }
     ]
   },
   {
@@ -97,7 +107,12 @@ const skillsData: SkillCategory[] = [
       { name: "scikit-learn", level: "proficient" },
       { name: "Pandas", level: "proficient" },
       { name: "NumPy", level: "proficient" },
-      { name: "LangChain", level: "good" }
+      { name: "LangChain", level: "good" },
+      { name: "RAG", level: "proficient" },
+      { name: "Voice AI", level: "proficient" },
+      { name: "Deepgram", level: "good" },
+      { name: "ElevenLabs", level: "good" },
+      { name: "LiveKit", level: "good" }
     ]
   },
   {
@@ -106,7 +121,11 @@ const skillsData: SkillCategory[] = [
     description: "Deploying and managing applications in the cloud",
     skills: [
       { name: "AWS", level: "good" },
+      { name: "AWS EC2", level: "good" },
       { name: "Docker", level: "proficient" },
+      { name: "Kubernetes", level: "good" },
+      { name: "ArgoCD", level: "good" },
+      { name: "Infisical", level: "good" },
       { name: "Git", level: "proficient" },
       { name: "GitHub Actions", level: "good" },
       { name: "CI/CD", level: "good" },
