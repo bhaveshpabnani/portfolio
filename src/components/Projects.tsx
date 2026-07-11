@@ -39,6 +39,38 @@ const projects: Project[] = [
     category: 'ai'
   },
   {
+    title: "Axon / AB: AI Analytics Platform",
+    description: "Built an AI analytics platform across Axon frontend and backend services with Next.js, Vite, FastAPI, PostgreSQL, Redis, pgvector, OpenAI, Anthropic, LiteLLM, SQL parsing, dashboards and data workflows.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["Next.js", "FastAPI", "PostgreSQL", "Redis", "pgvector", "OpenAI", "Anthropic"],
+    github: "https://github.com/bhaveshpabnani/axon-insight-suite",
+    category: 'ai'
+  },
+  {
+    title: "Frammer AI: Product Analytics Dashboard",
+    description: "Developed a production-style B2B media analytics dashboard for short-form video workflows with KPI views, content performance, channel analytics, language breakdowns, team productivity and client portals.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Recharts", "TanStack Query"],
+    github: "https://github.com/bhaveshpabnani/Frammer",
+    category: 'fullstack'
+  },
+  {
+    title: "Flash: AI Presentation Agent",
+    description: "Built an AI-powered presentation generation system with FastAPI and Next.js services, document upload context, PPTX export, Docker deployment and pluggable OpenAI, Gemini, Anthropic and image-provider integrations.",
+    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["FastAPI", "Next.js", "Docker", "OpenAI", "Gemini", "Anthropic", "PPTX"],
+    github: "https://github.com/bhaveshpabnani/Flash",
+    category: 'ai'
+  },
+  {
+    title: "RealFlow: CRE Voice Agent System",
+    description: "Implemented a production VAPI-powered commercial real estate voice agent with Twilio phone routing, FastAPI workflow APIs, caller-type branching, structured data extraction and Google Sheets logging.",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["VAPI", "Twilio", "FastAPI", "Google Sheets", "Voice AI", "Workflows"],
+    github: "https://github.com/bhaveshpabnani/RealFlow",
+    category: 'ai'
+  },
+  {
     title: "ReefChat: Multi-Agent Retrieval System",
     description: "Developed MORAY, a multi-agent retrieval and DAG synthesis system for equity analysis with parallel tool execution, Pathway-backed document pipelines, Next.js, TypeScript, LangGraph-style orchestration and PDF-grounded workflows.",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
@@ -71,6 +103,24 @@ const projects: Project[] = [
     github: "https://github.com/bhaveshpabnani/portfolio",
     demo: "https://bhavesh-pabnani-portfolio.web.app",
     category: 'fullstack'
+  },
+  {
+    title: "Market Lens",
+    description: "Built a market analysis and visualization tool for stock-market insights, combining financial data ingestion, dashboards and investor-facing decision support for faster market exploration.",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["React", "TypeScript", "D3.js", "API Integration", "Data Visualization"],
+    demo: "https://market-lens-optimizer.web.app/",
+    github: "https://github.com/bhaveshpabnani/Market-Lens",
+    category: 'fullstack'
+  },
+  {
+    title: "Vibe Sense",
+    description: "Built an emotion and sentiment analysis application for text and speech signals, using React/TypeScript interfaces and machine-learning workflows for conversational mood detection.",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+    tags: ["TypeScript", "React", "NLP", "Sentiment Analysis", "TensorFlow.js"],
+    demo: "https://vibe-converse.web.app/",
+    github: "https://github.com/bhaveshpabnani/Vibe-Sense",
+    category: 'ml'
   },
   {
     title: "Catalyst Ambulance Optimizer",

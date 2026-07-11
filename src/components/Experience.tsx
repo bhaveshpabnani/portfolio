@@ -41,6 +41,15 @@ const experiences = [
     skills: ["AWS", "Java", "Python", "DynamoDB", "Bedrock", "Microservices"]
   },
   {
+    company: "PUMA Group",
+    logo: "https://logo.clearbit.com/puma.com",
+    title: "Customer Acquisition Analyst",
+    period: "Mar 2025 - Present",
+    location: "India",
+    description: "Performed in-store marketing analysis for customer acquisition cost prediction, KPI/KRA detection and customer-feedback dataset analysis to improve acquisition strategy and store-level decision making.",
+    skills: ["Data Analysis", "Marketing Analytics", "KPI Tracking", "Predictive Modeling"]
+  },
+  {
     company: "Mansio.ai",
     logo: "",
     title: "Backend Intern",
@@ -51,6 +60,26 @@ const experiences = [
     skills: ["FastAPI", "Redis", "WhatsApp", "VAPI", "Deepgram", "ElevenLabs"]
   },
   {
+    company: "Cambridge Judge Business School",
+    logo: "https://logo.clearbit.com/jbs.cam.ac.uk",
+    title: "Research Assistant",
+    period: "Jan 2025 - Present",
+    location: "United Kingdom",
+    remote: true,
+    description: "Compiled satellite datasets for frugality and ablation studies of Indian satellites and led an agentic AI chatbot effort to gather validated satellite information from government-authorized sources.",
+    skills: ["Data Collection", "Research Methodology", "AI Development", "Team Leadership"]
+  },
+  {
+    company: "Deakin University",
+    logo: "https://logo.clearbit.com/deakin.edu.au",
+    title: "Research Intern",
+    period: "Mar 2024 - Aug 2024",
+    location: "Victoria, Australia",
+    remote: true,
+    description: "Analyzed anomaly detection methods for DDoS attack detection under Prof. Gang Li, implementing Deep Residual Networks with Dice Loss, LUCID and FLAD models for security classification.",
+    skills: ["DDoS", "Anomaly Detection", "Deep Residual Networks", "LUCID", "FLAD", "CNN"]
+  },
+  {
     company: "Sabre Corporation",
     logo: "https://logo.clearbit.com/sabre.com",
     title: "Software Engineer / Data Analytics Intern",
@@ -59,6 +88,16 @@ const experiences = [
     remote: true,
     description: "Built airline analytics systems across non-stop share prediction, RAG-based schedule querying and Vectora schedule intelligence using Aurora/PostgreSQL, Redis caching, AWS EC2, route-pair analytics, graph features and dashboard integrations.",
     skills: ["Aurora", "PostgreSQL", "Redis", "AWS EC2", "NetworkX", "RAG", "Analytics"]
+  },
+  {
+    company: "Indian Institute of Management, Ranchi",
+    logo: "https://logo.clearbit.com/iimranchi.ac.in",
+    title: "Research Intern",
+    period: "Nov 2023 - Jul 2024",
+    location: "Ranchi",
+    remote: true,
+    description: "Contributed to crowdfunding campaign success research using multimodal sentiment analysis, OpenCV face detection, ResNet50 object recognition, CLIP congruency analysis and SQRankBoost ranking.",
+    skills: ["Computer Vision", "Sentiment Analysis", "ResNet50", "CLIP", "Statistical Analysis"]
   },
   {
     company: "Data Analytics Centre",
@@ -146,7 +185,7 @@ export default function Experience() {
                     </span>
                     <span className="flex items-center gap-1">
                       <MapPin size={14} className="text-accent" />
-                      {experience.location} {experience.remote && "(Remote)"}
+                      {experience.location} {experience.remote && experience.location !== "Remote" && "(Remote)"}
                     </span>
                   </div>
                   
